@@ -43,3 +43,7 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
+#weather-info {
+    text-align: center;
+}
