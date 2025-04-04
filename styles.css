@@ -1,49 +1,49 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
+    font-family: Arial, sans-serif; /* Sets the font family for the entire body */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    background-color: #f4f4f4; /* Sets background color */
 }
 
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
+    background-color: #333; /* Sets background color of header */
+    color: #fff; /* Sets text color in header */
+    padding: 10px 0; /* Adds padding to header */
+    text-align: center; /* Centers text in header */
 }
 
 nav ul {
-    list-style: none;
-    padding: 0;
-    text-align: center;
-    background-color: #444;
+    list-style: none; /* Removes default list style */
+    padding: 0; /* Removes default padding */
+    text-align: center; /* Centers the navigation menu */
+    background-color: #444; /* Sets background color of navigation menu */
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 10px;
+    display: inline; /* Displays list items in a line */
+    margin: 0 10px; /* Adds horizontal margin between list items */
 }
 
 nav ul li a {
-    color: #fff;
-    text-decoration: none;
+    color: #fff; /* Sets link color */
+    text-decoration: none; /* Removes underline from links */
 }
 
 main {
-    padding: 20px;
-    background-color: #fff;
+    padding: 20px; /* Adds padding to main content */
+    background-color: #fff; /* Sets background color of main content */
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+    background-color: #333; /* Sets background color of footer */
+    color: #fff; /* Sets text color in footer */
+    text-align: center; /* Centers text in footer */
+    padding: 10px 0; /* Adds padding to footer */
+    position: fixed; /* Fixes footer to the bottom of the page */
+    width: 100%; /* Sets footer width to full page width */
+    bottom: 0; /* Positions footer at the bottom */
 }
 
 #weather-info {
-    text-align: center;
+    text-align: center; /* Centers weather information text */
 }
